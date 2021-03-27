@@ -3,16 +3,14 @@
 //Enter the length of rectangle 4
 //Enter the breadth of rectangle 8
 //Area of rectangle 32
-
 #include <iostream>
 using namespace std;
 int main() 
 {
-   
-   int ; // Declare Variables
-   std::cout << "\nEnter the Length and Breadth of Rectangle : ";
-   std::cin >> l >> b;
-              //complete the missing code to caluculate area
-   std::cout << area;
-   return 0;
+int l,b,area; // Declare Variables
+std::cout << "Enter the Length and Breadth of Rectangle :";
+std::cin >> l >> b;
+area= l * b;              //complete the missing code to caluculate area
+std::cout << area;
+return 0;
 }
